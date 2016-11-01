@@ -1,0 +1,25 @@
+{
+    "name" : "fbeen/dateextensionbundle",
+    "description" : "This Bundle adds some date functions which are usefull if you cann't use the intl php extension.",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Frank Beentjes",
+        "email" : "frankbeen@gmail.com"
+    }],
+    "keywords" : [
+        "Date Extension Bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": "^5.5.9|^7.0",
+        "symfony/framework-bundle": "^2.7|^3.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Fbeen\\DateExtensionBundle" : ""
+        }
+    },
+    "target-dir" : "Fbeen/DateExtensionBundle"
+}
